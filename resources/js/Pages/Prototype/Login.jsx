@@ -2,8 +2,8 @@ import Input from "@/Components/Input";
 import Label from "@/Components/Label";
 import Button from "@/Components/Button";
 import { Link, Head } from "@inertiajs/inertia-react";
-import Moonton from "../../../../public/images/moonton-white.svg"
-import Signup from "../../../../public/images/signup-image.png"
+import Moonton from "../../../../public/images/moonton-white.svg";
+import Signup from "../../../../public/images/signup-image.png";
 
 export default function Login() {
     return (
@@ -31,15 +31,15 @@ export default function Login() {
                         </div>
                         <form className="w-[370px]">
                             <div className="flex flex-col gap-6">
-                            <div>
+                                <div>
                                     <Label
                                         forInput="email"
                                         value="Email Address"
                                     />
                                     <Input
-                                    type="email"
-                                    name="email"
-                                    placeholder="Email Address"
+                                        type="email"
+                                        name="email"
+                                        placeholder="Email Address"
                                     />
                                 </div>
                                 <div>
@@ -55,15 +55,15 @@ export default function Login() {
                                 </div>
                             </div>
                             <div className="grid space-y-[14px] mt-[30px]">
-                                <Link href="#">
+                                <Link href={route("prototype.dashboard")}>
                                     <Button type="button" variant="primary">
                                         <span className="text-base font-semibold">
                                             Start Watching
                                         </span>
                                     </Button>
                                 </Link>
-                                <Link href={route('prototype.register')}>
-                                <Button
+                                <Link href={route("prototype.register")}>
+                                    <Button
                                         type="button"
                                         variant="light-outline"
                                     >
