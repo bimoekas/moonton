@@ -22,7 +22,7 @@ class MovieTableSeeder extends Seeder
                 'category' => 'Action',
                 'video_url' => 'https://www.youtube.com/watch?v=TcMBFSGVi1c',
                 'thumbnail' => 'https://images8.alphacoders.com/100/1003220.png',
-                'rating' => 9.4,
+                'rating' => 4.4,
                 'is_featured' => 1,
             ],
             [
@@ -30,8 +30,8 @@ class MovieTableSeeder extends Seeder
                 'slug' => 'spiderman-no-way-home',
                 'category' => 'Action',
                 'video_url' => 'https://www.youtube.com/watch?v=JfVOs4VSpmA',
-                'thumbnail' => 'https://wallpaperaccess.com/full/6790561.jpg',
-                'rating' => 9.2,
+                'thumbnail' => 'https://images8.alphacoders.com/121/1218962.jpg',
+                'rating' => 4.2,
                 'is_featured' => 0,
             ],
             [
@@ -40,7 +40,7 @@ class MovieTableSeeder extends Seeder
                 'category' => 'Action',
                 'video_url' => 'https://www.youtube.com/watch?v=WDkg3h8PCVU',
                 'thumbnail' => 'https://i.pinimg.com/564x/c9/87/34/c987340629a9b5a12db26ad92c3b2692.jpg',
-                'rating' => 8.5,
+                'rating' => 4,
                 'is_featured' => 1,
             ]
         ];
